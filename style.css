@@ -1,6 +1,6 @@
 nav {
     background-color: #2E2C56;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,4 +69,13 @@ nav {
   
   .carousel{
     transition: .3s ease-in-out;
+  }
+
+  .historia {
+    width: 100%;
+    background-color: #8882FF;
+  }
+
+  p{
+    color: #FFFFFF;
   }
