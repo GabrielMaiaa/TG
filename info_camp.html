@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="img/Logos/IconeAbaSite.png" type="image/x-icon">
+  <script src="funcoes.js"></script>
 
 	<title>BG e-Sports</title>
 
@@ -51,24 +52,23 @@
 <br>
 
 <!-- FAZER JS para usar ESSA PAGINAÇÃO -->
-<div class="card " style="width: 1000px; left: 160px;">
+<div class="card" style="width: 1000px; left: 160px;">
     <div class="card-header">
-      <ul class="nav nav-tabs card-header-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="true" href="#">Overview</a>
+      <ul class="pagination">
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" onclick="changePage(0)" href="#">Overview</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="true" href="#">Results</a>
+        <li class="page-item">
+          <a class="page-link" href="#" onclick="changePage(1)">Results</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="true" >Stats</a>
+        <li class="page-item">
+          <a class="page-link" href="#" onclick="changePage(2)">Stats</a>
         </li>
       </ul>
     </div>
     <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title"></h5>
+      <p class="card-text" style="color:black"></p>
     </div>
   </div>
 
