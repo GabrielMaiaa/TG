@@ -1,7 +1,7 @@
 function changePage(pageNum) {
     // Remove a classe "active" de todos os botões de página
-    const pageButtons = document.querySelectorAll(".pagination .page-item");
-    pageButtons.forEach((button) => button.classList.remove("active"));
+    //const pageButtons = document.querySelectorAll(".pagination .page-item");
+    //pageButtons.forEach((button) => button.classList.remove("active"));
   
     // Adiciona a classe "active" ao botão de página selecionado
     const selectedPageButton = document.querySelector(
@@ -14,7 +14,7 @@ function changePage(pageNum) {
     const cardText = document.querySelector(".card-text");
     switch (pageNum) {
       case 0:
-        cardTitle.textContent = "Overview";
+        cardTitle.innerHTML = "<h2 class='text-center'> Overview </h2>";
         cardText.innerHTML = "<table class='table'>" +
         "  <thead>"+
         "    <tr>"+
@@ -186,7 +186,6 @@ function changePage(pageNum) {
        "</table>"+
      "</div>"+
    "</div>"+
-
    "<div class='container text-center'>"+
      "<div class='row'>"+
        "<div class='col'>"+
@@ -537,8 +536,127 @@ function changePage(pageNum) {
       "</div>";
         break;
       case 2:
-        cardTitle.textContent = "Stats";
-        cardText.textContent = "Stats content goes here.";
+        cardTitle.innerHTML = "<h2 class='text-center'> Status </h2>";
+        cardText.innerHTML = "<div class=\"container text-center\">" +
+        "<div class=\"row\">" +
+          "<div class=\"col-md-6\">" +
+            "<table class=\"table\">" +
+              "<h3 style=\"text-align: center;\">TOP Players</h3>" +
+              "<thead>" +
+                "<tr>" +
+                  "<th scope=\"col\"> </th>" +
+                  "<th scope=\"col\">Nome</th>" +
+                  "<th scope=\"col\">Rating 2.0</th>" +
+                  "<th scope=\"col\">Mapas</th>" +
+                "</tr>" +
+              "</thead>" +
+              "<tbody>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/brasil.png' alt='Bandeira' width='25' height='25'></td>"+
+                  "<td>Coldzera</td>" +
+                  "<td>1.37</td>" +
+                  "<td>9</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/dinamarca.png' alt='Bandeira' width='20' height='20'></td>"+
+                  "<td>Device</td>" +
+                  "<td>1.28</td>" +
+                  "<td>7</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/brasil.png' alt='Bandeira' width='25' height='25'></td>"+ 
+                  "<td>TACO</td>" +
+                  "<td>1.25</td>" +
+                  "<td>9</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/suecia.png' alt='Bandeira' width='20' height='20'></td>"+
+                  "<td>KRIMZ</td>" +
+                  "<td>1.27</td>" +
+                  "<td>8</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/brasil.png' alt='Bandeira' width='25' height='25'></td>"+
+                  "<td>FalleN</td>" +
+                  "<td>1.19</td>" +
+                  "<td>9</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/espanha.png' alt='Bandeira' width='20' height='20'></td>"+
+                  "<td>mixwell</td>" +
+                  "<td>1.19</td>" +
+                  "<td>2</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/brasil.png' alt='Bandeira' width='25' height='25'></td>"+
+                  "<td>fnx</td>" +
+                  "<td>1.19</td>" +
+                  "<td>9</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td><img src='img/bandeira/ucrania.png' alt='Bandeira' width='20' height='20'></td>"+
+                  "<td>s1mple</td>" +
+                  "<td>1.18</td>" +
+                  "<td>11</td>" +
+                "</tr>" +
+              "</tbody>" +
+            "</table>" +
+          "</div>" +
+          "<div class=\"col-md-6\">" +
+            "<table class=\"table\">" +
+              "<h3 style=\"text-align: center;\">TOP Teams</h3>" +
+              "<thead>" +
+                "<tr>" +
+                  "<th scope=\"col\">Time</th>" +
+                  "<th scope=\"col\">Rating 2.0</th>" +
+                  "<th scope=\"col\">Mapas</th>" +
+                "</tr>" +
+              "</thead>" +
+              "<tbody>" +
+                "<tr>" +
+                  "<td>SK</td>" +
+                  "<td>1.23</td>" +
+                  "<td>9</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td>Fnatic</td>" +
+                  "<td>1.14</td>" +
+                  "<td>9</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td>Natus Vincere</td>" +
+                  "<td>1.10</td>" +
+                  "<td>5</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td>Astralis</td>" +
+                  "<td>1.07</td>" +
+                  "<td>7</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td>Liquid</td>" +
+                  "<td>1.07</td>" +
+                  "<td>11</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td>FlipSid3</td>" +
+                  "<td>1.03</td>" +
+                  "<td>7</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td>Dignitas</td>" +
+                  "<td>1.03</td>" +
+                  "<td>5</td>" +
+                "</tr>" +
+                "<tr>" +
+                  "<td>Virtus.Pro</td>" +
+                  "<td>1.02</td>" +
+                  "<td>7</td>" +
+                "</tr>" +
+              "</tbody>" +
+            "</table>" +
+          "</div>" +
+        "</div>";
         break;
       default:
         break;
