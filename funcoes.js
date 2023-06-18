@@ -40,7 +40,7 @@ function changePage(pageNum) {
         "    <div class='card text-center' style='width: 252px; left: 50px; '>"+
         "      <img src='img/campeonatos/campeao-2016.jfif' style='width: 250px; ' class='card-img-top' >"+
         "      <div class='card-body'>"+
-        "        <h5 class='card-title'>SK - Gaming</h5>"+
+        "        <h5 class='card-title' style='color:black;'>SK - Gaming</h5>"+
         "        <p class='card-text' style='color: black;'><strong>Primeiro Lugar</strong></p>"+
         "        <p class='card-text' style='color: black;'>$500,000</p>"+
         "      </div>"+
@@ -50,7 +50,7 @@ function changePage(pageNum) {
         "    <div class='card text-center' style='width: 252px; left: 50px; '>"+
         "      <img src='img/campeonatos/liquid-2016.jfif' style='width: 250px; height: 170px;' class='card-img-top' >"+
         "      <div class='card-body'>"+
-        "        <h5 class='card-title'>Liquid</h5>"+
+        "        <h5 class='card-title' style='color:black;'>Liquid</h5>"+
         "        <p class='card-text' style='color: black;'><strong>Segundo Lugar</strong></p>"+
         "        <p class='card-text' style='color: black;'>$150.000</p>"+
         "      </div>"+
@@ -60,7 +60,7 @@ function changePage(pageNum) {
         "    <div class='card text-center' style='width: 252px; left: 50px; '>"+
         "      <img src='img/campeonatos/fnatic-2016.jfif' style='width: 250px; height: 170px;' class='card-img-top' >"+
         "      <div class='card-body'>"+
-        "        <h5 class='card-title'>Fnatic</h5>"+
+        "        <h5 class='card-title' style='color:black;'>Fnatic</h5>"+
         "        <p class='card-text' style='color: black;'><strong>Terceiro Lugar</strong></p>"+
         "        <p class='card-text' style='color: black;'>$70.000</p>"+
         "      </div>"+
@@ -73,7 +73,7 @@ function changePage(pageNum) {
         "     <img src='img/campeonatos/cold.avif' width='400' height='300' style='border-radius: 15px; margin-left:50px'>"+
         "   </div>"+
         " <div class='col-lg-6' >"+
-        "   <h3 class='display-7 fw-bold text-body-emphasis lh-1 mb-3'>Marcelo 'coldzera' David (Brasileiro)</h1>"+
+        "   <h3 class='display-7 fw-bold lh-1 mb-3' style='color:white;'> <img src='img/bandeira/brasil.png' alt='Bandeira' width='25' height='25'> Marcelo 'coldzera' David</h1>"+
         " </div>"+
         "</div>"+
         "<h3 class='text-center' style='font-weight: bold'> GRUPOS</h3><BR>"+
