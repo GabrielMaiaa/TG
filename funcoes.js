@@ -14,10 +14,10 @@ function changePage(pageNum) {
     const cardText = document.querySelector(".card-text");
     switch (pageNum) {
       case 0:
-        cardTitle.innerHTML = "<h2 class='text-center'> Overview </h2>";
+        cardTitle.innerHTML = "<h2 class='text-center' style='color:white'> OVERVIEW </h2> <BR>";
         cardText.innerHTML = "<table class='table'>" +
-        "  <thead>"+
-        "    <tr>"+
+        "  <thead style='color:white'>"+
+        "    <tr style='color:white'>"+
         "      <th scope='col'>Data</th>"+
         "      <th scope='col'>Prêmio</th>"+
         "      <th scope='col'>Times</th>"+
@@ -25,7 +25,7 @@ function changePage(pageNum) {
         "    </tr>"+
         "  </thead>"+
         "  <tbody>"+
-        "   <tr>"+
+        "   <tr style='color:white'>"+
         "     <td>5 de Julho - 10 de Julho 2016</td>"+
         "    <td>$1.000,000</td>"+
         "     <td>16</td>"+
@@ -34,14 +34,14 @@ function changePage(pageNum) {
         " </tbody>"+
         "</table>" +
         "<br><br>"+
-        " <h4 class='text-center'> Campeões </h4><br>"+
+        " <h2 class='text-center'style='font-weight: bold'> CAMPEÕES </h2><br>"+
         "<div class='row row-cols-1 row-cols-md-3 g-3'>"+
         "  <div class='col'>"+
         "    <div class='card text-center' style='width: 252px; left: 50px; '>"+
         "      <img src='img/campeonatos/campeao-2016.jfif' style='width: 250px; ' class='card-img-top' >"+
         "      <div class='card-body'>"+
         "        <h5 class='card-title'>SK - Gaming</h5>"+
-        "        <p class='card-text' style='color: black;'><strong>1 st</strong></p>"+
+        "        <p class='card-text' style='color: black;'><strong>Primeiro Lugar</strong></p>"+
         "        <p class='card-text' style='color: black;'>$500,000</p>"+
         "      </div>"+
         "    </div>"+
@@ -51,7 +51,7 @@ function changePage(pageNum) {
         "      <img src='img/campeonatos/liquid-2016.jfif' style='width: 250px; height: 170px;' class='card-img-top' >"+
         "      <div class='card-body'>"+
         "        <h5 class='card-title'>Liquid</h5>"+
-        "        <p class='card-text' style='color: black;'><strong>2 nd</strong></p>"+
+        "        <p class='card-text' style='color: black;'><strong>Segundo Lugar</strong></p>"+
         "        <p class='card-text' style='color: black;'>$150.000</p>"+
         "      </div>"+
         "    </div>"+
@@ -61,7 +61,7 @@ function changePage(pageNum) {
         "      <img src='img/campeonatos/fnatic-2016.jfif' style='width: 250px; height: 170px;' class='card-img-top' >"+
         "      <div class='card-body'>"+
         "        <h5 class='card-title'>Fnatic</h5>"+
-        "        <p class='card-text' style='color: black;'><strong>3th</strong></p>"+
+        "        <p class='card-text' style='color: black;'><strong>Terceiro Lugar</strong></p>"+
         "        <p class='card-text' style='color: black;'>$70.000</p>"+
         "      </div>"+
         "    </div>"+
@@ -69,21 +69,21 @@ function changePage(pageNum) {
         "</div>"+
         "<div class='row flex-lg-row align-items-center g-5 py-5'>"+
         "   <div class='col-10 col-sm-8 col-lg-6'>"+
-        " <h1 class='text-center' style='text-decoration: underline'> MVP </h1><br><br>"+
+        " <h1 class='text-center'  style='margin-left: 35px ;'> MVP </h1>"+
         "     <img src='img/campeonatos/cold.avif' width='400' height='300' style='border-radius: 15px; margin-left:50px'>"+
         "   </div>"+
-        " <div class='col-lg-6'>"+
-        "     <h3 class='display-7 fw-bold text-body-emphasis lh-1 mb-3'>Marcelo 'coldzera' David (Brasileiro)</h1>"+
+        " <div class='col-lg-6' >"+
+        "   <h3 class='display-7 fw-bold text-body-emphasis lh-1 mb-3'>Marcelo 'coldzera' David (Brasileiro)</h1>"+
         " </div>"+
         "</div>"+
-        "<h3 class='text-center'> Group Play</h3>"+
+        "<h3 class='text-center' style='font-weight: bold'> GRUPOS</h3><BR>"+
         "<div class='container text-center'>"+
           "<div class='row'>"+
             "<div class='col'>"+
              "<table class='table table-bordered'>"+
-            "<thead>"+
-              "<tr>"+
-                "<th scope='col'>Group A</th>"+
+            "<thead style='color:white'>"+
+              "<tr style='color:white'>"+
+                "<th scope='col' >Group A</th>"+
                 "<th scope='col'>M</th>"+
                 "<th scope='col'>W</th>"+
                 "<th scope='col'>T</th>"+
@@ -93,7 +93,7 @@ function changePage(pageNum) {
               "</tr>"+
             "</thead>"+
             "<tbody>"+
-              "<tr>"+
+              "<tr style='color:white'>"+
                 "<th scope='row'>Gambit</th>"+
                 "<td>2</td>"+
                 "<td>2</td>"+
@@ -102,7 +102,7 @@ function changePage(pageNum) {
                 "<td>13</td>"+
                 "<td>6</td>"+
               "</tr>"+
-              "<tr>"+
+              "<tr style='color:white'>"+
                 "<th scope='row'>Astralis</th>"+
                 "<td>3</td>"+
                 "<td>2</td>"+
@@ -111,7 +111,7 @@ function changePage(pageNum) {
                 "<td>-1</td>"+
                 "<td>6</td>"+
               "</tr>"+
-              "<tr>"+
+              "<tr style='color:white'>"+
                 "<th scope='row'>Dignitas</th>"+
                 "<td>3</td>"+
                 "<td>1</td>"+
@@ -120,7 +120,7 @@ function changePage(pageNum) {
                 "<td>6</td>"+
                 "<td>3</td>"+
               "</tr>"+
-              "<tr>"+
+              "<tr style='color:white'>"+
                 "<th scope='row'>CLG</th>"+
                 "<td>2</td>"+
                 "<td>0</td>"+
@@ -134,8 +134,8 @@ function changePage(pageNum) {
        "</div>"+
        "<div class='col'>"+
        "<table class='table table-bordered'>"+
-         "<thead>"+
-           "<tr>"+
+         "<thead style='color:white'>"+
+           "<tr style='color:white'>"+
              "<th scope='col'>Group B</th>"+
              "<th scope='col'>M</th>"+
              "<th scope='col'>W</th>"+
@@ -146,7 +146,7 @@ function changePage(pageNum) {
            "</tr>"+
          "</thead>"+
          "<tbody>"+
-           "<tr>"+
+           "<tr style='color:white'>"+
              "<th scope='row'>Natus Vincere</th>"+
              "<td>2</td>"+
              "<td>2</td>"+
@@ -155,7 +155,7 @@ function changePage(pageNum) {
              "<td>13</td>"+
              "<td>6</td>"+
            "</tr>"+
-           "<tr>"+
+           "<tr style='color:white'>"+
              "<th scope='row'>FlipSid3</th>"+
              "<td>3</td>"+
              "<td>2</td>"+
@@ -164,7 +164,7 @@ function changePage(pageNum) {
              "<td>11</td>"+
              "<td>6</td>"+
            "</tr>"+
-           "<tr>"+
+           "<tr style='color:white'>"+
              "<th scope='row'>Ninjas In Pyjamas</th>"+
              "<td>3</td>"+
              "<td>1</td>"+
@@ -173,7 +173,7 @@ function changePage(pageNum) {
              "<td>-9</td>"+
              "<td>3</td>"+
            "</tr>"+
-           "<tr>"+
+           "<tr style='color:white'>"+
              "<th scope='row'>OpTic</th>"+
              "<td>2</td>"+
              "<td>0</td>"+
@@ -190,8 +190,8 @@ function changePage(pageNum) {
      "<div class='row'>"+
        "<div class='col'>"+
          "<table class='table table-bordered'>"+
-           "<thead>"+
-             "<tr>"+
+           "<thead style='color:white'>"+
+             "<tr style='color:white'>"+
                "<th scope='col'>Group C</th>"+
                "<th scope='col'>M</th>"+
                "<th scope='col'>W</th>"+
@@ -202,7 +202,7 @@ function changePage(pageNum) {
              "</tr>"+
            "</thead>"+
            "<tbody>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>Virtus.pro</th>"+
                "<td>2</td>"+
                "<td>2</td>"+
@@ -211,7 +211,7 @@ function changePage(pageNum) {
                "<td>10</td>"+
                "<td>6</td>"+
              "</tr>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>Liquid</th>"+
                "<td>3</td>"+
                "<td>2</td>"+
@@ -220,7 +220,7 @@ function changePage(pageNum) {
                "<td>20</td>"+
                "<td>6</td>"+
              "</tr>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>Mouz</th>"+
                "<td>3</td>"+
                "<td>1</td>"+
@@ -229,7 +229,7 @@ function changePage(pageNum) {
                "<td>-17</td>"+
                "<td>3</td>"+
              "</tr>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>Envy</th>"+
                "<td>2</td>"+
                "<td>0</td>"+
@@ -243,8 +243,8 @@ function changePage(pageNum) {
        "</div>"+
        "<div class='col'>"+
          "<table class='table table-bordered'>"+
-           "<thead>"+
-             "<tr>"+
+           "<thead style='color:white'>"+
+             "<tr style='color:white'>"+
                "<th scope='col'>Group D</th>"+
                "<th scope='col'>M</th>"+
                "<th scope='col'>W</th>"+
@@ -255,7 +255,7 @@ function changePage(pageNum) {
              "</tr>"+
            "</thead>"+
            "<tbody>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>SK</th>"+
                "<td>2</td>"+
                "<td>2</td>"+
@@ -264,7 +264,7 @@ function changePage(pageNum) {
                "<td>15</td>"+
                "<td>6</td>"+
              "</tr>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>Fnatic</th>"+
                "<td>3</td>"+
                "<td>2</td>"+
@@ -273,7 +273,7 @@ function changePage(pageNum) {
                "<td>17</td>"+
                "<td>6</td>"+
              "</tr>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>FaZe</th>"+
                "<td>3</td>"+
                "<td>1</td>"+
@@ -282,7 +282,7 @@ function changePage(pageNum) {
                "<td>-24</td>"+
                "<td>3</td>"+
              "</tr>"+
-             "<tr>"+
+             "<tr style='color:white'>"+
                "<th scope='row'>G2</th>"+
                "<td>2</td>"+
                "<td>0</td>"+
@@ -297,20 +297,20 @@ function changePage(pageNum) {
       "</div>";
         break;
       case 1:
-        cardTitle.innerHTML = "<h2 class='text-center'> Resultados </h2>";
+        cardTitle.innerHTML = "<h2 class='text-center' style='color:white'> Resultados </h2>";
         cardText.innerHTML = "<div class='container text-center'>"+
         "<div class='row'>"+
         "<div class=\"col-md-6\">"+
         "<table class=\"table\">"+
           "<h3 style=\"text-align: center;\"> Jogos (05/07/2016)</h3>"+
-          "<thead>"+
-            "<tr>"+
+          "<thead style='color:white'>"+
+            "<tr style='color:white'>"+
               "<th scope=\"col\">Time</th>"+
               "<th scope=\"col\">Placar</th>"+
               "<th scope=\"col\">Time</th>"+
             "</tr>"+
           "</thead>"+
-          "<tbody>"+
+          "<tbody style='color:white'>"+
             "<tr>"+
               "<td>Fnatic</td>"+
               "<td> 14 x 16</td>"+
@@ -356,7 +356,7 @@ function changePage(pageNum) {
       "</div>"+
       "<br><br>"+
       "<div class=\"col-md-6\">"+
-        "<table class=\"table\">"+
+        "<table class=\"table\" style='color:white'>"+
           "<h3 style=\"text-align: center;\"> Jogos (06/07/2016)</h3>"+
           "<thead>"+
             "<tr>"+
@@ -414,7 +414,7 @@ function changePage(pageNum) {
       "<div class='container text-center'>"+
       "<div class='row'>"+
       "<div class=\"col-md-6\">"+
-        "<table class=\"table\">"+
+        "<table class=\"table\" style='color:white'>"+
           "<h3 style=\"text-align: center;\"> Jogos (07/07/2016) - Melhor de 3</h3>"+
           "<thead>"+
             "<tr>"+
@@ -449,7 +449,7 @@ function changePage(pageNum) {
       "</div>"+
       "<br><br>"+
       "<div class=\"col-md-6\">"+
-        "<table class=\"table\">"+
+        "<table class=\"table\" style='color:white'>"+
           "<h3 style=\"text-align: center;\"> Jogos (08/07/2016) - Melhor de 3</h3>"+
           "<thead>"+
             "<tr>"+
@@ -487,7 +487,7 @@ function changePage(pageNum) {
       "<div class='container text-center'>"+
       "<div class='row justify-content-md-center'>"+
       "<div class=\"col-md-6\">"+
-        "<table class=\"table\">"+
+        "<table class=\"table\" style='color:white'>"+
           "<h3 style=\"text-align: center;\"> Jogos (09/07/2016) - Melhor de 3</h3>"+
           "<thead>"+
             "<tr>"+
@@ -515,7 +515,7 @@ function changePage(pageNum) {
       "<div class='container text-center'>"+
       "<div class='row justify-content-md-center'>"+
       "<div class=\"col-md-6\">"+
-        "<table class=\"table\">"+
+        "<table class=\"table\" style='color:white'>"+
           "<h3 style=\"text-align: center;\"> Jogos (10/07/2016) - Final</h3>"+
           "<thead>"+
             "<tr>"+
@@ -536,11 +536,11 @@ function changePage(pageNum) {
       "</div>";
         break;
       case 2:
-        cardTitle.innerHTML = "<h2 class='text-center'> Status </h2>";
+        cardTitle.innerHTML = "<h2 class='text-center' style='color:white'> Status </h2>";
         cardText.innerHTML = "<div class=\"container text-center\">" +
         "<div class=\"row\">" +
           "<div class=\"col-md-6\">" +
-            "<table class=\"table\">" +
+            "<table class=\"table\" style='color:white'>" +
               "<h3 style=\"text-align: center;\">TOP Players</h3>" +
               "<thead>" +
                 "<tr>" +
@@ -603,7 +603,7 @@ function changePage(pageNum) {
             "</table>" +
           "</div>" +
           "<div class=\"col-md-6\">" +
-            "<table class=\"table\">" +
+            "<table class=\"table\" style='color:white'>" +
               "<h3 style=\"text-align: center;\">TOP Teams</h3>" +
               "<thead>" +
                 "<tr>" +

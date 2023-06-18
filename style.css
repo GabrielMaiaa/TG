@@ -166,5 +166,47 @@ nav {
     z-index: 1500;
   }
 
+  .navbar-title {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 60PX; /* Defina o valor do tamanho da fonte desejado */
+    margin-left: 600px ;
+  }
 
+  .navbar-title-cs-go {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 50PX; /* Defina o valor do tamanho da fonte desejado */
+    margin-left: 700PX ;
+  }
+  
+  .navbar-title-index {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 60PX; /* Defina o valor do tamanho da fonte desejado */
+    margin-left: 600px ;
+  }
+
+  .navbar-title-camps {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 60PX; /* Defina o valor do tamanho da fonte desejado */
+    margin-left: 558px ;
+  }
+
+  .navbar-title-cs2 {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 60PX; /* Defina o valor do tamanho da fonte desejado */
+    margin-left: 500px ;
+  }
+
+  .card{
+    align-content: center;
+  }
   
